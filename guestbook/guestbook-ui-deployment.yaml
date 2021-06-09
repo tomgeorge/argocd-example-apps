@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nginx
+      - image: tomgeorge/crappy-nginx-that-doesnt-exist
         name: guestbook-ui
         ports:
         - containerPort: 80
